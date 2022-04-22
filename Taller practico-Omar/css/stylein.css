@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Serif:wght@100&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    width:400px;
+    height:400px;
+}
+
+.opciones a{
+    font-family: 'Akshar', sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding-left: 90px;
+    text-align: center;
+    color: #FEE3EC;
+    font-size: 30px;
+    padding: 60px;
+}
+.opciones{
+    padding: 30px;
+    background-color: #F2789F;
+    width: 95%;
+    border-radius: 4px;
+}
+.opciones a:hover{
+    color: black;
+    text-shadow: 4px 2px 2px #FFF001;
+    
+}
+.opciones ul{
+    text-align: center;
+}
+.opciones img{
+    width: 50px;
+    height: 50px;
+    padding-left: 40px;
+}
+ul{
+    display: flex; 
+}
+.clases h3{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.contenedor h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+p{
+    font-family: 'Merriweather', serif;
+}
+.clases{
+    width: 80%;
+    display: flex;
+    padding-left: 110px;
+    text-align: justify;
+}
+div{
+    padding: 20px;
+}
+.estudiantes{
+    width: 80%;
+    text-align: center;
+    padding-left: 190px;
+}
+table{
+    font-family: 'Merriweather', serif;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+td{
+    padding: 7px;
+    text-align: center;
+    border: 5px;
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+.tabla{
+    text-align: center;
+}
+.galardones{
+    font-family: 'Merriweather', serif;
+}
+.pied{
+    text-align: center;
+    color:#FEE3EC;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.pied h3:hover{
+    color:black;
+    text-shadow: 4px 2px 2px #FFF001;
+    cursor: pointer;
+}
+footer{
+    background-color: #F2789F;
+    padding: -40px;
+}
+.pied img{
+    height: 30px;
+    width: 30px;
+    transform: 2s;
+}
+.pied img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.pied li{
+    padding-left: 60px;
+    padding: 40px;
+}
+@media screen and (max-width: 800px){
+    body{
+        padding-top: 80px ;
+    }
+    .opciones a{
+        display: block;
+        width: 100%;
+    }
+    .clases{
+        width: 80%;
+        position: relative;
+    }
+    footer{
+        width: 100%;
+    }
+}
